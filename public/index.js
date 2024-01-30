@@ -15,14 +15,3 @@ function toggleSound(keyCode) {
     }
   }
 }
-
-const keybordkey = document.querySelectorAll(".key");
-
-function changeColor(event) {
-  const newColor = red;
-  event.target.style.backgroundcolor = newColor;
-}
-
-keybordkey.forEach(function (element) {
-  element.addEventListener("keydown", changeColor);
-});
