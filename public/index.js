@@ -1,8 +1,20 @@
 window.addEventListener("keydown", function (e) {
-  const audio = document.querySelector(`audio[data-key='${e.keyCode}']`);
-  audio.currentTime = 0;
-  audio.play();
+  toggleSound(e.keyCode);
 });
+
+function toggleSound(keyCode) {
+  const audio = document.querySelector(`audio[data-key='${keyCode}']`);
+
+  if (audio) {
+    if (audio.paused) {
+      audio.currentTime = 0;
+      audio.play();
+    } else {
+      audio.pause();
+      audio.currentTime = 0;
+    }
+  }
+}
 
 const keybordkey = document.querySelectorAll(".key");
 
