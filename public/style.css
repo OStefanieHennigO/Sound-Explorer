@@ -33,6 +33,7 @@ header p {
   top: 6rem;
 }
 main {
+
   display: flex;
   flex-wrap: wrap;
   gap: 4rem;
@@ -42,23 +43,66 @@ main {
 
 .key_wrapper_two,
 .key_wrapper_one {
+  box-sizing: content-box;
+  width: 100%;
   display: flex;
-  gap: 2.5rem;
+  flex-wrap: wrap;
+  gap: 2.3rem;
 }
 
 .key {
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   opacity: 0.6;
   background-image: url(../public/img/oleg-laptev-QRKJwE6yfJo-unsplash.jpg);
   background-size: cover;
-  background-position: bottom 27px right 134px;
+  background-position: bottom 25px right 119px;
 }
 
 kbd {
   display: block;
   position: relative;
-  top: 4.1rem;
-  left: 3.2rem;
+  top: 3.9rem;
+  left: 2.6rem;
 }
+
+
+/* Media Query für kleinere Bildschirme
+@media (max-width: 600px) {
+  body {
+    font-size: medium;
+  }
+
+  header {
+    width: 100%;
+    height: 8rem;
+  }
+
+  h1 {
+    top: 0.5rem;
+  }
+
+  header p {
+    top: 1rem;
+  }
+
+  main{
+    flex-wrap: wrap;
+  }
+
+  .key_wrapper_two,
+  .key_wrapper_one {
+    align-items: center;
+    gap:0.5rem;
+  }
+
+  .key {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  kbd {
+    top: 1.6rem;
+  }
+} */
