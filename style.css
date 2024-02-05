@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: url(../public/img/peter-gargiulo-cGNCepznaV8-unsplash.jpg);
+  background-image: url(/img/peter-gargiulo-cGNCepznaV8-unsplash.jpg);
   background-size: cover;
 }
 
@@ -63,7 +63,7 @@ main {
   height: 6rem;
   border-radius: 50%;
   opacity: 0.6;
-  background-image: url(../public/img/oleg-laptev-QRKJwE6yfJo-unsplash.jpg);
+  background-image: url(/img/oleg-laptev-QRKJwE6yfJo-unsplash.jpg);
   background-size: cover;
   background-position: bottom 25px right 119px;
 }
