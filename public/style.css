@@ -15,6 +15,7 @@ body {
 }
 
 header {
+  box-sizing: content-box;
   width: 100%;
   height: 12rem;
   display: flex;
@@ -23,10 +24,11 @@ header {
   position: absolute;
 }
 h1 {
-  position: relative;
-  top: 1rem;
+  /* position: relative;
+  top: 0.5rem;
   left: -1rem;
-  margin: 0.5rem;
+  margin: 0.5rem; */
+  padding: 1em;
 }
 header p {
   position: relative;
@@ -43,14 +45,17 @@ main {
 
 .key_wrapper_two,
 .key_wrapper_one {
-  box-sizing: content-box;
+  position: relative;
+  top: 5em;
   width: 100%;
+  padding: 1em;
   display: flex;
   flex-wrap: wrap;
   gap: 2.3rem;
 }
 
 .key {
+ 
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
@@ -68,41 +73,3 @@ kbd {
 }
 
 
-/* Media Query für kleinere Bildschirme
-@media (max-width: 600px) {
-  body {
-    font-size: medium;
-  }
-
-  header {
-    width: 100%;
-    height: 8rem;
-  }
-
-  h1 {
-    top: 0.5rem;
-  }
-
-  header p {
-    top: 1rem;
-  }
-
-  main{
-    flex-wrap: wrap;
-  }
-
-  .key_wrapper_two,
-  .key_wrapper_one {
-    align-items: center;
-    gap:0.5rem;
-  }
-
-  .key {
-    width: 4rem;
-    height: 4rem;
-  }
-
-  kbd {
-    top: 1.6rem;
-  }
-} */
