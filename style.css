@@ -6,7 +6,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  font-size: xx-large;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -17,53 +16,60 @@ body {
 header {
   box-sizing: content-box;
   width: 100%;
-  height: 12rem;
+  height: 9rem;
   display: flex;
   justify-content: center;
   background-color: rgb(230, 227, 224);
   position: absolute;
 }
 h1 {
-  position: absolute;
-  top: 0.4rem;
-  left: 0.4rem;
-  
+  position: relative;
+  top: 0.5em;
+  left: em;
 }
-header p {
-  position: absolute;
-  top: 7rem;
-  left: 35rem;
-  font-size: x-large;
-  
-  
-}
-main {
 
+header p {
+  position: relative;
+  top: 4em;
+  font-size: 20px;
+}
+
+main {
   display: flex;
   flex-wrap: wrap;
-  gap: 4rem;
+  gap: 1rem;
   margin: auto 0;
   justify-content: center;
+  align-items: center;
+}
+
+.wrapper_one_heading,.wrapper_two_heading{
+  color: antiquewhite;
+  position: relative;
+  font-size: 20px;
+}
+.wrapper_one_heading {
+  left: -29em;
+  top: 8.7em;  
+}
+.wrapper_two_heading {
+  top: 8.5em;
+  left: -28.5em;
 }
 
 .key_wrapper_two,
 .key_wrapper_one {
   position: relative;
-  top: 5em;
+  top: 6em;
+  left: 3em;
   width: 100%;
-  padding: 1em;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-.key_wrapper_two{
-  top: 5rem;
-  left: 3rem;
-}
-
 .key {
- 
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
@@ -74,7 +80,7 @@ main {
 }
 
 kbd {
-  display: block;
+  font-size: 19px;
   position: relative;
   top: 3.8rem;
   left: 2.6rem;
