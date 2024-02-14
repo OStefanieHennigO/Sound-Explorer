@@ -49,12 +49,12 @@ main {
   font-size: 20px;
 }
 .wrapper_one_heading {
-  left: -29em;
+  left: -39em;
   top: 8.7em;  
 }
 .wrapper_two_heading {
   top: 8.5em;
-  left: -28.5em;
+  left: -38.5em;
 }
 
 .key_wrapper_two,
@@ -70,20 +70,20 @@ main {
 }
 
 .key {
-  width: 6rem;
-  height: 6rem;
+  width: 8rem;
+  height: 8rem;
   border-radius: 50%;
   opacity: 0.6;
   background-image: url(/img/oleg-laptev-QRKJwE6yfJo-unsplash.jpg);
   background-size: cover;
-  background-position: bottom 25px right 119px;
+  background-position: bottom 22px right 155px;
 }
 
 kbd {
   font-size: 19px;
   position: relative;
-  top: 3.8rem;
-  left: 2.6rem;
+  top: 5.1rem;
+  left: 3.8rem;
 }
 
 
