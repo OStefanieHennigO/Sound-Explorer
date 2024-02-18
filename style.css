@@ -48,14 +48,12 @@ main {
   position: relative;
   font-size: 20px;
 }
-.wrapper_one_heading {
-  left: -39em;
-  top: 8.7em;  
+.wrapper_one_heading,.wrapper_two_heading  {
+  font-size: x-large;
+  left: -33em;
+  top:8em;  
 }
-.wrapper_two_heading {
-  top: 8.5em;
-  left: -38.5em;
-}
+
 
 .key_wrapper_two,
 .key_wrapper_one {

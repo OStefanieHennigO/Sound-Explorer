@@ -10,9 +10,11 @@ function toggleSound(e) {
     if (audio.paused) {
       audio.currentTime = 0;
       audio.play();
+    
     } else {
       audio.pause();
       audio.currentTime = 0;
+    
     }
   }
 }
